@@ -13,6 +13,6 @@ public class Hello : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        transform.Rotate(0, 30f * Time.deltaTime, 0);
+        transform.Rotate(1f, 30f * Time.deltaTime, 1f);
     }
 }
