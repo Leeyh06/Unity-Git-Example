@@ -15,5 +15,7 @@ public class Hello : MonoBehaviour
     {
         transform.Rotate(0, 30f * Time.deltaTime, 0);
         Debug.Log("Rotate");
+
+        transform.Rotate(1f, 30f * Time.deltaTime, 1f);
     }
 }
